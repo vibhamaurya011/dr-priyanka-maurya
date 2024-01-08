@@ -11,7 +11,7 @@ function HeroSection() {
   return (
     <div className="flex items-center justify-center w-full h-80 bg-gray-100 relative z-0">
       <div className="flex w-full max-w-6xl">
-        {/* Left Div */}
+      
         <div className={`w-1/2 p-5 ${showText ? 'visible' : 'hidden'}`}>
           <h1 className="text-4xl font-bold mb-4">Welcome to Our Clinic</h1>
           <p className="text-lg mb-6">
